@@ -1,0 +1,3 @@
+this Python code reads in a video stream on the first capture card and generates a monochrom DMX/pixel representation.
+
+dependancies: opencv 2.3.4, olalib
