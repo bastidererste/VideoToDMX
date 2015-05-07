@@ -20,12 +20,6 @@ cap = cv2.VideoCapture(2)
 width = int(cap.get(3))
 height = int(cap.get(4))
 
-
-
-
-
-print height, width
-
 ret, frame = cap.read()
 frame_darker = (frame * scale).astype(numpy.uint8)
 
